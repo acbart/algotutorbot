@@ -45,3 +45,7 @@ This page contains the resources for instructors interested in adopting the ATB 
     * When Lesson 25 is completed, [this page](https://acbart.github.io/endless-algo-runner/) becomes available.
 * [Lesson 26- Final Algorithmic Puzzles](lessons/Lesson 26- Final Algorithmic Puzzles)  
 * [Lesson 27- The End](lessons/Lesson 27- The End)                    
+
+# Full Video Playlist
+
+<iframe width="1904" height="768" src="https://www.youtube.com/embed/jFDxhB0gtZQ?list=PL4lj9_lkgXTMlEKffSifwms8iYJKjTITH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
