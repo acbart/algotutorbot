@@ -5,6 +5,7 @@ This page contains the resources for instructors interested in adopting the ATB 
 
 # Lessons
 
+* [Lesson 00- Introduction](lessons/Lesson 00- Introduction)
 * [Lesson 01- Algorithm Basics](lessons/Lesson 01- Algorithm Basics)           
 * [Lesson 02- Practicing Problems](lessons/Lesson 02- Practicing Problems)        
 * [Lesson 03- Using GradeScope](lessons/Lesson 03- Using GradeScope)           
