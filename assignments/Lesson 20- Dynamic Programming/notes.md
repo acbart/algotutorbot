@@ -35,7 +35,7 @@ Dynamic Programming Quiz
       First Fit Heuristic can solve the 0-1 Knapsack algorithm 
       All algorithms can be solved more efficiently using Dynamic Programming 
       Depth-first Search can solve the Connected Graph problem 
-      Wagner–Fischer algorithm can solve Edit Distance 
+      Wagner-Fischer algorithm can solve Edit Distance 
       Merge sort can solve the Sorting Problem
       Binary Search can solve the Search Problem
 
