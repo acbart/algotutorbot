@@ -42,5 +42,6 @@ This page contains the resources for instructors interested in adopting the ATB 
 * [Lesson 23- Nondeterministic Polynomial Time.pdf](quizzes/Quiz_ Lesson 23- Nondeterministic Polynomial Time.pdf)
 * [Lesson 24- Reductions.pdf](quizzes/Quiz_ Lesson 24- Reductions.pdf)
 * [Lesson 25- Approximation](lessons/Lesson 25- Approximation)              
+    * When Lesson 25 is completed, [this page](https://acbart.github.io/endless-algo-runner/) becomes available.
 * [Lesson 26- Final Algorithmic Puzzles](lessons/Lesson 26- Final Algorithmic Puzzles)  
 * [Lesson 27- The End](lessons/Lesson 27- The End)                    
