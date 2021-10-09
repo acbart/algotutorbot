@@ -1,3 +1,6 @@
+---
+---
+
 <div class="alert alert-info -waltz-literal">
   <ul>
     <li>Watch the video and refer to the other videos as needed.</li>

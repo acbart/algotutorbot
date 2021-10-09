@@ -1,0 +1,146 @@
+<div class="alert alert-info -waltz-literal">
+  <ul>
+    <li>Watch the video below.</li>
+    <li>You will not need to join the Ohyay workspace today.</li>
+    <li>This assignment will be an <strong>individual</strong> submission; do not work with others.</li>
+    <li>You will submit your <strong>Python code</strong> to <strong>GradeScope</strong> for this assignment.</li>
+    <li>This assignment has a <strong>Leaderboard</strong> on GradeScope.</li>
+  </ul>
+</div>
+
+<h1 id="watch">Watch</h1>
+
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/nQ-4ssSIhDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h1 id="do">Do</h1>
+
+<p>Direct Ada to quickly navigate between all the energy cores!</p>
+
+<ol>
+  <li>Read in a file containing the distances between all the cores</li>
+  <li>Find the shortest path that takes you to all the cores and back to the first one.</li>
+  <li>Print out the order you attack the cores and then the total cost of the tour</li>
+</ol>
+
+<h1 id="formal-specification">Formal Specification</h1>
+
+<p><strong>Problem:</strong> Find the <em>approximately</em> shortest path that visits every vertex and returns to the first one.</p>
+
+<p><strong>Input:</strong> The filename of a local file containing a sequence of distances in a 2D matrix.
+Unlike previous assignments, the first line is <em>not</em> the number of items.
+Instead, every line consists of <code class="language-plaintext highlighter-rouge">N</code> numbers, and there are <code class="language-plaintext highlighter-rouge">N</code> lines.
+Each individual number represents the distance between the vertices given by the indices of the matrix.</p>
+
+<p>An example input file is below:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>0  3  4  2  7
+3  0  4  6  3
+4  4  0  5  8
+2  6  5  0  6
+7  3  8  6  0
+</code></pre></div></div>
+
+<p>In this example, there are 5 vertices. The distance between the first vertex and the second vertex is 3.
+The distance between the first vertex and the fourth vertex is 2. A vertex will always be 0 units away from itself.</p>
+
+<p><strong>Output:</strong> The sequence of indices chosen to minimize the total distance travelled, and the calculated total cost
+of that tour.</p>
+
+<p>An example of output is below:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>4
+1
+0
+3
+2
+21
+</code></pre></div></div>
+
+<p>The total distance calculation is broken down below:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Distance from 4 to 1: 3
+              1 to 0: 3
+              0 to 3: 2
+              3 to 2: 5
+              2 to 4: 8
+                      = 21
+</code></pre></div></div>
+
+<h2 id="approximation">Approximation</h2>
+
+<p>This problem is known as the Travelling Salesman Problem, and it is NP-Hard. You are not going to be able to find
+optimal solutions for most reasonable sized inputs - and most of the floors have a lot more than 5 energy cores.</p>
+
+<p>Instead, you will want to find <em>approximate</em> solutions: answers that are valid tours (connect every vertex without repeats),
+but may not be as short as possible.</p>
+
+<p>I strongly recommnd this excellent webpage for more background on this problem and suggestions on approximation
+algorithms that can work surprisingly well: <a href="https://www2.seas.gwu.edu/~simhaweb/champalg/tsp/tsp.html">https://www2.seas.gwu.edu/~simhaweb/champalg/tsp/tsp.html</a></p>
+
+<p>I also recommend this video, which can help explain some of the more common, but complex, approaches: <a href="https://www.youtube.com/watch?v=SC5CX8drAtU">https://www.youtube.com/watch?v=SC5CX8drAtU</a></p>
+
+<h2 id="autograder-points">Autograder Points</h2>
+
+<p>The autograder will accept any output tours that visit each core once and calculate their cost correctly.
+This means that, to earn the minimal number of points, you do not need to actually find very good answers.
+As long as you produce correct tours, you will earn the autograder points.
+Once you submit an answer that has all correct tours, you will be given access to a video and ????.</p>
+
+<p>However, for every input, I have written my own baseline solution. For every test case of mine that you meet or outperform,
+you earn half a point of extra credit - with twenty test cases, that means you have the potential to earn up to 10 extra
+credit points.
+Further, if you manage to meet or outperform my baseline for <em>every</em> answer, then you will unlock a small minor prize.</p>
+
+<h2 id="time-complexity">Time Complexity</h2>
+
+<p>You will not need to explain the time complexity of your solution. In fact, there is no target threshold that we care about.
+Your algorithm can be as inefficient as you want, as long as it works fast for the given inputs.</p>
+
+<p>However, you must still explain your program and algorithms that you used.</p>
+
+<h1 id="submission">Submission</h1>
+
+<p>You will be submitting this assignment through GradeScope.
+The same rules will apply for all coding assignments in this course, so you should read them all carefully: <a href="https://udel.instructure.com/courses/1563197/pages/gradescope-instructions">GradeScope Instructions</a></p>
+
+<p>Critically, this is an individual assignment. Do not share code with any of your group mates!
+<strong>Again, do not share code with other students on this assignment.</strong></p>
+
+<p>For this project, you will need to create an <code class="language-plaintext highlighter-rouge">answer.py</code> that solves the problem above, a <code class="language-plaintext highlighter-rouge">readme.md</code> that
+explains your solution at a high level, and a <code class="language-plaintext highlighter-rouge">test.py</code> that tests your solution in some way.</p>
+
+<p>All parts of your solution, including both the program, the tests, and the <code class="language-plaintext highlighter-rouge">readme.md</code> file should be submitted on GradeScope: <a href="https://www.gradescope.com/courses/230699/assignments/1198043/">https://www.gradescope.com/courses/230699/assignments/1198043/</a></p>
+
+<h2 id="grading">Grading</h2>
+
+<p>You will be graded on the following components:</p>
+
+<ul>
+  <li>60% for a program passing the autograder’s unit tests</li>
+  <li>30% for a clear explanation in your <code class="language-plaintext highlighter-rouge">readme.md</code> file of your program.</li>
+  <li>10% for having good unit tests</li>
+</ul>
+
+<p>Note that unclear code and answers can cause a huge penalty to your grade. We are not being strict on coding
+style, but we shouldn’t have to run your code through a deobfuscator to figure out what it does.
+You might also lose points if you ignore instructions in this assignment, or bypass the autograder, even if the autograder gives you points.</p>
+
+<h2 id="faq">FAQ</h2>
+
+<ul>
+  <li><strong>Can I have a bigger example input/output?</strong> Yes, here is one with 15 vertices: https://gist.github.com/acbart/94e48bd45678bd971e589685fe4e3b8c (Links to an external site.)</li>
+  <li><strong>Are the distances the same in each direction?</strong> Yes.</li>
+  <li><strong>So I don’t have to beat your baseline to earn full points?</strong> Correct. That’s an optional part of this assignment.</li>
+  <li><strong>What do I get for beating all the baseline values?</strong> This assignment is a big deal, and I want to reward those who engage with it.
+    <ul>
+      <li>Everyone who complete the basics of the assignment unlocks a small extra experience.</li>
+      <li>Students who perform extra well individually earn extra credit points AND can even unlock something small but cute that augments that extra experience.</li>
+      <li>Depending on how well the class does overall, you will unlock different endings to our story. Your goal as a class is to beat my tours as many times cumulatively as possible, with the lowest median total cost you can get. I have a plan for up to four endings depending on how well you all do. Which ones will you earn?</li>
+    </ul>
+  </li>
+  <li><strong>What approximation algorithms do you suggest? There are so many!</strong> Try the simplest ones first. 2-opt and 3-opt are surprisingly effective. I did find good results with Simulated Annealing, but it wasn’t actually that much better than my other attempts. And really, why pick just one method? Go for an ensemble!</li>
+  <li><strong>Can I use Numpy, Pandas, any other third-party libraries?</strong> Nope. You must use pure Python.</li>
+  <li><strong>What is the leaderboard?</strong> A fun feature on GradeScope is a leaderboard to indicate your current score. Everyone can see the leaderboard, but you are free to choose a nickname if you don’t want the rest of the class to know who you are. Still, I think the leaderboard might be a way for folks to find others who might have good suggestions on what approximation algorithms to use.</li>
+  <li><strong>How is the class grade going to work?</strong> The leaderboard shows how everyone is doing. Anyone not on the leaderboard has a Total Cost of 10000 and 0 Faster Routes. Your goal as a class is to minimize the median Total Cost and maximize your cumulative Faster Routes. As you do, you unlock better endings to the story. I have up to four endings planned, and some are better than others. Will you be able to save me from AlgoTutorBot?</li>
+  <li><strong>Can we work together?</strong> Please do not share code on this assignment. I have been a little lax with collaboration this semester, but I want this assignment to be what you can do without going to others for code. That said, you are encouraged to share algorithms and discuss strategies.</li>
+</ul>

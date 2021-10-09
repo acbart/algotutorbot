@@ -1,0 +1,151 @@
+\documentclass[12pt]{exam}
+
+\newcommand{\Course}{CISC320}
+\newcommand{\Semester}{Spring 2021}
+\newcommand{\Assignment}{Lesson 05- Bounds and Big Oh}
+\newcommand{\Version}{1.0.1}
+
+\printanswers % If you want to print answers
+ %\noprintanswers % If you don't want to print answers
+\addpoints % if you want to count the points
+% \noaddpoints % if you don't want to count the points
+% Specifies the way question are displayed:
+
+\qformat{\textbf{Question~\thequestion}\quad(\thepoints)\hfill}
+\usepackage{color} % defines a new color
+\definecolor{SolutionColor}{rgb}{0.9,.95,1} % light blue
+%\shadedsolutions % defines the style of the solution environment
+\framedsolutions % defines the style of the solution environment
+% Defines the title of the solution environment:
+\renewcommand{\solutiontitle}{\noindent\textbf{Solution:}\par\noindent}
+
+
+
+\usepackage[letterpaper, margin=.5in]{geometry}
+\usepackage[framemethod=tikz]{mdframed}
+\usepackage{multicol}
+\usepackage{amsmath}
+
+\usepackage{listings}
+\usepackage{color}
+\definecolor{lightgray}{gray}{0.9}
+
+\lstset{
+    showstringspaces=false,
+    basicstyle=\ttfamily,
+    keywordstyle=\color{blue},
+    commentstyle=\color[grey]{0.6},
+    stringstyle=\color[RGB]{255,150,75}
+}
+
+\usepackage{tikz}
+\usetikzlibrary{positioning}% To get more advances positioning options
+\usetikzlibrary{arrows}% To get more arrow heads
+
+\tikzstyle{circ} = [circle, rounded corners, draw=black]
+
+
+\pagestyle{empty}
+
+%\usepackage{pogilcs}
+
+% Taken largely from CSPogil activities by Matt Lang
+% Specifically Graph I activity.
+
+\begin{document}
+
+\makebox[.9\textwidth]{Names:\enspace\hrulefill}
+
+\Course~-~\Semester~-~\Assignment~-~\Version
+
+
+%%%%%%% BEGIN CONTENT
+
+
+\begin{questions}
+
+
+\question[2] True or False? Show your work!
+
+\begin{parts}
+
+\part $2^{n+1} = O(2^n)$
+\begin{solution}[1.5in]
+%%%% 1.a
+\end{solution}
+
+
+\part
+$2^{2n} = O(2^n)$\\
+\begin{solution}[1.5in]
+%%%% 1.b
+\end{solution}
+ 
+
+\end{parts}
+
+\question[3]  For each of the following pairs of functions, either $f(n)$ is in $O(g(n))$, f(n) is in $\Omega(g(n))$, or $f(n) = \Theta(g(n))$. Determine which relationship is correct and briefly explain why.
+
+\begin{parts}
+
+\part $f(n) = \sqrt{n} $ and $g(n) = \log{(n^2)}$
+
+\begin{solution}[2in]
+%%% 2.a
+\end{solution}
+
+\part $f(n) = 2^n $ and $g(n) = 3^n$
+
+\begin{solution}[1in]
+%%%% 2.b
+\end{solution}
+
+\part $f(n) = 2 \sqrt{(n)} + \log(n)$ and $g(n) = \sqrt{(n)} + 5$
+
+\begin{solution}[3in]
+%%%% 2.c
+\end{solution}
+
+\end{parts}
+
+\question[2] Why is $n^2 = O(2^n)$
+
+\begin{solution}[1in]
+
+%%%%% 3
+
+\end{solution}
+
+\question[3] For each of the following pairs of functions $f(n)$ and $g(n)$, give a minimal positive integer constant $C$ such that $f(n) \leq C \cdot g(n)$ for all $n>1$.
+
+\begin{parts}
+
+\part $f(n)= n^2 + n + 1$ and $g(n) = 2n^3$
+
+\begin{solution}[1in]
+
+%%%%% 4.a
+
+\end{solution}
+
+\part $f(n) = n\cdot \sqrt{n} + n^2$ and $g(n) = n^2$
+
+\begin{solution}[1in]
+
+%%%% 4.b
+
+\end{solution}
+
+\part $f(n) = n^2 - n + 1$ and $g(n) = \frac{n^2}{2}$
+
+\begin{solution}[1in]
+
+%%%%% 4.c
+
+\end{solution}
+
+\end{parts}
+
+\end{questions}
+
+\end{document}

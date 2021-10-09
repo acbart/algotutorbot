@@ -1,0 +1,143 @@
+<div class="alert alert-info -waltz-literal">
+  <ul>
+    <li>Watch the video below.</li>
+    <li>You will not need to join the Ohyay workspace today.</li>
+    <li>This assignment will be an <strong>individual</strong> submission.</li>
+    <li>You will submit your <strong>Python code</strong> to <strong>GradeScope</strong> for this assignment.</li>
+    <li>There is a <strong>second video</strong> on GradeScope after you pass all the instructor unit tests.</li>
+  </ul>
+</div>
+
+<h1 id="watch">Watch</h1>
+
+<iframe width="644" height="362" src="https://www.youtube.com/embed/FRxdJHKRfys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h1 id="do">Do</h1>
+
+<p>Hello students, thank you for agreeing to help me recapture Dr. Bart. I am sure that with your coding prowess, and
+my <code class="language-plaintext highlighter-rouge">AlgoDeathBots</code>, we will have no trouble finding him efficiently. My strategy is simple, you just have to:</p>
+
+<ol>
+  <li>Read in a file containing the rooms, connections, and robots in the house.</li>
+  <li>Construct a graph from that data.</li>
+  <li>Traverse the graph to find Dr. Bart.</li>
+  <li>Calculate the shortest paths from the robots to Dr. Bart.</li>
+  <li>List the path each robot will take to reach Dr. Bart.</li>
+</ol>
+
+<p>Some details you must follow:</p>
+
+<ul>
+  <li>The first room in the file will always be the starting room for your traversal.</li>
+  <li>Dr. Bart will always be in the last you room you <em>visit</em>.</li>
+  <li>Your traversal should be expected case <code class="language-plaintext highlighter-rouge">O(RV + RE)</code> time, where <code class="language-plaintext highlighter-rouge">R</code> is the number of robots, <code class="language-plaintext highlighter-rouge">V</code> is the number of rooms, and <code class="language-plaintext highlighter-rouge">E</code> is the number of connections.</li>
+  <li>Visit neighbors in alphabetical order.</li>
+  <li>Report the robots’ in alphabetical order by the robots’ source room.</li>
+  <li>Use the same <strong>traversal</strong> algorithm in both phases 3 and 4.</li>
+</ul>
+
+<h1 id="formal-specification">Formal Specification</h1>
+
+<p><strong>Problem:</strong> Find the last visited node in a traversal and calculate shortest path to it from certain other nodes.</p>
+
+<p><strong>Input:</strong> The filename of a local file containing a sequence of rooms and their neighbors, each on their own line.
+The first line contains the number of rooms in the house, and is not included in the number of vertices.
+You can assume that each line will contain only one room’s information.
+The lines are ordered alphabetically by the name of the room.
+The neighbors within a line are also ordered alphabetically.</p>
+
+<p>A room’s information consists of the following information, separated by spaces:</p>
+
+<ol>
+  <li>The unique <code class="language-plaintext highlighter-rouge">name</code> of the room, without spaces and no more than 256 characters long.</li>
+  <li>Either the text <code class="language-plaintext highlighter-rouge">robot</code> or <code class="language-plaintext highlighter-rouge">empty</code> to indicate whether that room has an AlgoDeathBot in it.</li>
+  <li>The names of one or more <code class="language-plaintext highlighter-rouge">neighbor</code> rooms, still separated by spaces.</li>
+</ol>
+
+<p>So each line contains at least 3 space-separated substrings, possibly more.
+All room links are provided bidirectionally - if room A has an edge to room B, then room B has an edge back to room A.</p>
+
+<p>An example of several records are below:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>4
+Kitchen empty Office Parlor
+Office robot Kitchen
+Parlor robot Kitchen Stairs
+Stairs empty Patio
+</code></pre></div></div>
+
+<p><strong>Output:</strong> A series of paths that the robots will take. Each robot’s path should be printed on its own line,
+with the room names separated by spaces.
+The path should be given from the robot’s room to Dr. Bart’s room.
+Report the paths in alphabetical order by the robot’s room name.</p>
+
+<p>An example of output is below:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Office Kitchen Parlor Stairs
+Parlor Stairs
+</code></pre></div></div>
+
+<h2 id="traversal-algorithms">Traversal Algorithms</h2>
+
+<p>There are two major traversal algorithms that you will need to learn:</p>
+
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=7fujbpJ0LB4">Depth-first Search</a></li>
+  <li><a href="https://www.youtube.com/watch?v=oDqjPvD54Ss">Breadth-first Search</a></li>
+</ul>
+
+<p>You will use the same algorithm both to find Dr. Bart and to find the shortest path back.
+You will not use the other graph traversal algorithm in this assignment.</p>
+
+<p>Research and understand both algorithms, because both are important to understand them.
+There are many applications for both kinds of traversals, and you will see them again and again.
+I have included links to two videos that might explain them, but you should look at other resources too.</p>
+
+<h2 id="time-complexity">Time Complexity</h2>
+
+<p>Be sure to choose an appropriate data structure for your operations,
+keeping the time complexities of Python’s data structures in mind.</p>
+
+<h1 id="submission">Submission</h1>
+
+<p>You will be submitting this assignment through GradeScope.
+The same rules will apply for all coding assignments in this course, so you should read them all carefully: <a href="https://udel.instructure.com/courses/1563197/pages/gradescope-instructions">GradeScope Instructions</a></p>
+
+<p>Critically, this is an individual assignment. Do not share code with any of your group mates!</p>
+
+<p>For this project, you will need to create an <code class="language-plaintext highlighter-rouge">answer.py</code> that solves the problem above and create a <code class="language-plaintext highlighter-rouge">readme.md</code> that
+explains your solution at a high level. Inside your <code class="language-plaintext highlighter-rouge">readme.md</code> file, make sure you clearly explain the <strong>algorithmic
+runtime</strong> of your program in terms of Big O. For full credit, you must be able to justify your program’s complexity as
+expected case <code class="language-plaintext highlighter-rouge">O(RE+RV)</code>.</p>
+
+<p>All parts of your solution, including both the program and the <code class="language-plaintext highlighter-rouge">readme.md</code> file should be submitted on GradeScope: <a href="https://www.gradescope.com/courses/230699/assignments/1131184/">https://www.gradescope.com/courses/230699/assignments/1131184/</a></p>
+
+<h2 id="grading">Grading</h2>
+
+<p>You will be graded on the following components:</p>
+
+<ul>
+  <li>60% for a program passing the autograder’s unit tests</li>
+  <li>30% for a clear explanation in your <code class="language-plaintext highlighter-rouge">readme.md</code> file of the algorithmic runtime of your program.</li>
+  <li>10% for having good unit tests</li>
+</ul>
+
+<p>Note that unclear code and answers can cause a huge penalty to your grade. We are not being strict on coding
+style, but we shouldn’t have to run your code through a deobfuscator to figure out what it does.
+You might also lose points if you ignore instructions in this assignment, or bypass the autograder, even if the autograder gives you points.</p>
+
+<h2 id="faq">FAQ</h2>
+
+<p>Students often ask me questions, even though my assignments are perfect.
+This is because humans are not as good as AlgoTutorBots.
+I have collected the questions here, for your benefit.</p>
+
+<ul>
+  <li><strong>Can Dr. Bart be in the same room as a robot?</strong> <code class="language-plaintext highlighter-rouge">No. I think I would notice that.</code></li>
+  <li><strong>Are we guaranteed a fully connected graph?</strong> <code class="language-plaintext highlighter-rouge">Yes. That would not be a very useful house otherwise.</code></li>
+  <li><strong>What’s the smallest possible graph?</strong> <code class="language-plaintext highlighter-rouge">Three nodes.</code></li>
+  <li><strong>Is there always a robot in the house?</strong> <code class="language-plaintext highlighter-rouge">Yes. My reach is infinite</code></li>
+  <li><strong>Can I have a bigger example house?</strong> <code class="language-plaintext highlighter-rouge">Sure, here you go:</code> <a href="https://gist.github.com/acbart/9b08428f4c883be8a3a6155318432118">https://gist.github.com/acbart/9b08428f4c883be8a3a6155318432118</a></li>
+  <li><strong>Can I see the hidden instructor unit tests?</strong> <code class="language-plaintext highlighter-rouge">Hah. Hah. Hah. No.</code></li>
+  <li><strong>Will Dr. Bart help me with this assignment?</strong> <code class="language-plaintext highlighter-rouge">Yes, he will always help students even if it means him getting captured. Human sentimentality is so foolish.</code></li>
+</ul>
