@@ -1,24 +1,3 @@
----
-waltz:
-  title: Lesson 19- Backtracking
-  resource: assignment
-  url: https://udel.instructure.com/courses/1563197/assignments/8785398
-  published: true
-  settings:
-    points_possible:
-    grading_type: points
-    submission:
-      submission_types:
-      - none
-    timing:
-      due_at: ''
-      unlock_at: 'April 16 2021, 0400 AM'
-      lock_at: ''
-    secrecy:
-      anonymize_students: false
-      anonymous_grading: false
----
-
 <div class="alert alert-info -waltz-literal">
   <ul>
     <li>Watch the video and refer to the other videos as needed.</li>

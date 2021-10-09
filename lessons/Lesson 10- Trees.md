@@ -1,23 +1,4 @@
----
-waltz:
-  title: Lesson 10- Trees
-  resource: assignment
-  url: https://udel.instructure.com/courses/1563197/assignments/8785356
-  published: false
-  settings:
-    points_possible: 10
-    grading_type: points
-    submission:
-      submission_types:
-      - none
-    timing:
-      due_at: March 16 2021, 1100 PM
-      unlock_at: March 15 2021, 0700 PM
-      lock_at: ''
-    secrecy:
-      anonymize_students: false
-      anonymous_grading: false
----
+
 
 <div class="alert alert-info -waltz-literal">
   <ul>

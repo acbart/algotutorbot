@@ -1,23 +1,3 @@
----
-waltz:
-  title: Lesson 22- Pit Digging
-  resource: assignment
-  url: https://udel.instructure.com/courses/1563197/assignments/8785395
-  published: false
-  settings:
-    points_possible:
-    grading_type: points
-    submission:
-      submission_types:
-      - none
-    timing:
-      due_at: ''
-      unlock_at: ''
-      lock_at: ''
-    secrecy:
-      anonymize_students: false
-      anonymous_grading: false
----
 
 <div class="alert alert-info -waltz-literal">
   <ul>

@@ -1,25 +1,3 @@
----
-waltz:
-  title: Lesson 06- ADTs and Data Structures
-  resource: assignment
-  url: https://udel.instructure.com/courses/1563197/assignments/8785342
-  published: true
-  settings:
-    points_possible: 10.0
-    grading_type: points
-    submission:
-      allowed_extensions:
-      - pdf
-      submission_types:
-      - online_upload
-    timing:
-      due_at: March 02 2021, 1159 PM
-      unlock_at: March 01 2021, 0500 AM
-      lock_at: ''
-    secrecy:
-      anonymize_students: false
-      anonymous_grading: false
----
 
 <div class="alert alert-info -waltz-literal">
   <ul>

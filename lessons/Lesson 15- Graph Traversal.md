@@ -1,23 +1,4 @@
----
-waltz:
-  title: Lesson 15- Graph Traversal
-  resource: assignment
-  url: https://udel.instructure.com/courses/1563197/assignments/8785378
-  published: false
-  settings:
-    points_possible: 15.0
-    grading_type: points
-    submission:
-      submission_types:
-      - none
-    timing:
-      due_at: April 7 2021, 1159 PM
-      unlock_at: April 2 2021, 0400 PM
-      lock_at: ''
-    secrecy:
-      anonymize_students: false
-      anonymous_grading: false
----
+
 
 <div class="alert alert-info -waltz-literal">
   <ul>

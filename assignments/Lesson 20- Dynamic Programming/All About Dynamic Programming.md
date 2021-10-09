@@ -1,10 +1,3 @@
----
-waltz:
-  title: All About Dynamic Programming
-  resource: page
-  published: false
----
-
 Dynamic programming is breaking down a problem into smaller sub-problems, solving each sub-problem and storing the
 solutions to each of these sub-problems in a dictionary/array/etc so each sub-problem is only calculated once.
 

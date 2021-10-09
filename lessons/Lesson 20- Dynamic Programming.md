@@ -1,38 +1,3 @@
----
-waltz:
-  title: Dynamic Programming
-  resource: quiz
-  url: https://udel.instructure.com/courses/1563197/quizzes/2606556
-  published: false
-  settings:
-    quiz_type: assignment
-    points_possible: 14.0
-    allowed_attempts: 2
-    scoring_policy: keep_latest
-    timing:
-      due_at: May 06 2020, 1159 PM
-      unlock_at: April 27 2020, 1200 AM
-      lock_at: ''
-    secrecy:
-      shuffle_answers: true
-      time_limit:
-      one_question_at_a_time: false
-      cant_go_back: false
-      show_correct_answers: false
-      show_correct_answers_last_attempt: false
-      show_correct_answers_at:
-      hide_correct_answers_at:
-      hide_results:
-      one_time_results: false
-  questions:
-  - DP - Overview
-  - DP - Name
-  - DP - Fibonacci
-  - DP - Memoization
-  - DP - Edit Distance
-  - DP - Edit Distance Table
-  - Question
----
 
 <div class="alert alert-info -waltz-literal">
   <ul>

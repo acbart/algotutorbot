@@ -1,23 +1,4 @@
----
-waltz:
-  title: Lesson 08- Algorithm Flowchart
-  resource: assignment
-  url: https://udel.instructure.com/courses/1563197/assignments/8785348
-  published: true
-  settings:
-    points_possible: 10.0
-    grading_type: points
-    submission:
-      submission_types:
-      - none
-    timing:
-      due_at: March 09 2021, 1159 PM
-      unlock_at: March 08 2021, 0200 AM
-      lock_at: ''
-    secrecy:
-      anonymize_students: false
-      anonymous_grading: false
----
+
 
 
 <div class="alert alert-info -waltz-literal">

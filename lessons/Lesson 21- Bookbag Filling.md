@@ -1,23 +1,3 @@
----
-waltz:
-  title: Lesson 21- Bookbag Filling
-  resource: assignment
-  url: https://udel.instructure.com/courses/1563197/assignments/8785389
-  published: true
-  settings:
-    points_possible:
-    grading_type: points
-    submission:
-      submission_types:
-      - none
-    timing:
-      due_at: ''
-      unlock_at: ''
-      lock_at: ''
-    secrecy:
-      anonymize_students: false
-      anonymous_grading: false
----
 
 <div class="alert alert-info -waltz-literal">
   <ul>

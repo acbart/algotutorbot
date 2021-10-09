@@ -1,23 +1,3 @@
----
-waltz:
-  title: Lesson 07- Algorithm Misconceptions
-  resource: assignment
-  url: https://udel.instructure.com/courses/1563197/assignments/8785346
-  published: true
-  settings:
-    points_possible: 10.0
-    grading_type: points
-    submission:
-      submission_types:
-      - none
-    timing:
-      due_at: March 04 2021, 1159 PM
-      unlock_at: March 03 2021, 0500 AM
-      lock_at: ''
-    secrecy:
-      anonymize_students: false
-      anonymous_grading: false
----
 
 <div class="alert alert-info -waltz-literal">
   <ul>
