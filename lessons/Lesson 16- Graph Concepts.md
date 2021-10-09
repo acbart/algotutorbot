@@ -24,3 +24,5 @@ Here is the message they were originally shown when they loaded the assignment:
 # Walkthrough
 
 The video below is a walkthrough of the house adventure.
+
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/7kdPezAlN2g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
