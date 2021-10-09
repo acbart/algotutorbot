@@ -3,6 +3,10 @@
 
 This page contains the resources for instructors interested in adopting the ATB Curriculum.
 
+# Video Script
+
+* [Video Script](script)
+
 # Lessons
 
 * [Lesson 00- Introduction](lessons/Lesson 00- Introduction)
