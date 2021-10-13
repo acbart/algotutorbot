@@ -5,6 +5,8 @@
 
 This page contains the resources for instructors interested in adopting the ATB Curriculum.
 
+![Screenshot from Lesson 16, where AlgoTutorBot has tied up Dr. Bart and is lecturing about Graph Structures](resources/algotutorbot.png)
+
 ## Particularly Interesting Items
 
 * [Runtime Case Builder](https://acbart.github.io/runtime-case-builder/?preload=RCB_find_with_break_dynamic.json): An interactive web application that let's students make graphs of algorithms' runtime. Students can control not only the algorithm, but also the cases and instances of input they use. Multiple cases of inputs can be visually compared against each other, e.g., to highlight different worst/best case behavior of algorithms. Check out this assignment for some [example questions](https://docs.google.com/document/d/1bxph3XW2O2fmrgDw7DmTnJzYo58CzZvorQG0eWJ8hks/edit?usp=sharing) you could use the Runtime Case Builder with. 
