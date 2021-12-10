@@ -27,7 +27,7 @@ also a number of smaller assignments that would be easily adopted into a regular
 course. All resources and a walkthrough video of the experience are available at
 https://acbart.github.io/algotutorbot/
 
-This demo will show off the final version of the course, and will also describe the lessons I
+This website will show off the final version of the course, and will also describe the lessons I
 learned along the way. The curriculum was a tremendous amount of effort, and would not be
 easily reproduced. However, the experience was very rewarding and earned me my highest
 course evaluations ever - virtually perfect scores.
