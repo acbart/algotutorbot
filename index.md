@@ -7,6 +7,31 @@ This page contains the resources for instructors interested in adopting the ATB 
 
 ![Screenshot from Lesson 16, where AlgoTutorBot has tied up Dr. Bart and is lecturing about Graph Structures](resources/algotutorbot.png)
 
+## About
+
+During the Spring of the 2021 semester, stuck in quarantine due to the ongoing global
+pandemic, I decided I needed to do something completely different with my undergraduate-level
+Algorithms course. Tired of teaching via Zoom to little boxes, I decided to recreate the entire
+course, inspired by my love of Escape Rooms and Alternate Reality Games. Connecting
+together Canvas, Ohyay, and GradeScope with my own custom technology, I weaved an
+asynchronous, video-based narrative whereby students would inevitably have to save me from
+my own Frankenstein’s monster: an evil Intelligent Tutoring System named "AlgoTutorBot" who
+threatens not only the course, but the entire world!
+
+The final course incorporates a range of interesting assignments that are available to external
+adopters. This includes not only programming problems and conventional algorithmic logic
+problems, but also a novel web application for experimenting with runtime analysis, an
+interactive point-and-click adventure for practicing graph algorithms, and a pedagogical
+methodology for concretizing students' problem solving process into tangible artifacts. There are
+also a number of smaller assignments that would be easily adopted into a regular Algorithms
+course. All resources and a walkthrough video of the experience are available at
+https://acbart.github.io/algotutorbot/
+
+This demo will show off the final version of the course, and will also describe the lessons I
+learned along the way. The curriculum was a tremendous amount of effort, and would not be
+easily reproduced. However, the experience was very rewarding and earned me my highest
+course evaluations ever - virtually perfect scores.
+
 ## Particularly Interesting Items
 
 * [Runtime Case Builder](https://acbart.github.io/runtime-case-builder/?preload=RCB_find_with_break_dynamic.json): An interactive web application that let's students make graphs of algorithms' runtime. Students can control not only the algorithm, but also the cases and instances of input they use. Multiple cases of inputs can be visually compared against each other, e.g., to highlight different worst/best case behavior of algorithms. Check out this assignment for some [example questions](https://docs.google.com/document/d/1bxph3XW2O2fmrgDw7DmTnJzYo58CzZvorQG0eWJ8hks/edit?usp=sharing) you could use the Runtime Case Builder with. 
