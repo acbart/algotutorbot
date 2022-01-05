@@ -25,8 +25,7 @@ You MAY work together with anyone from your group (no limit on number of people)
 on your guide. Many hands make short work, but recognize that artistic visions can vary. You may find partners more
 effective than large teams.
 
-We have provided a basic template that you can use: <https://docs.google.com/document/d/1COGMdrxpPuzAuw_DZIhbq-
-TyjE5ZA9Bksh7OGscbRT0/edit?usp=sharing>
+We have provided a basic template that you can use: <https://docs.google.com/document/d/1COGMdrxpPuzAuw_DZIhbq-TyjE5ZA9Bksh7OGscbRT0/edit?usp=sharing>
 
 However, you are strongly encouraged to restructure your guide however you see fit! This is a chance to be creative and
 really reformat the information whichever way you want. You really aren't limited to the two ugly tables we showed you.
