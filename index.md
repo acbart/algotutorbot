@@ -7,7 +7,7 @@ This page contains the resources for instructors interested in adopting the ATB 
 
 <!-- ![Screenshot from Lesson 16, where AlgoTutorBot has tied up Dr. Bart and is lecturing about Graph Structures](resources/algotutorbot.png) -->
 
-<iframe width="1180" height="664" src="https://www.youtube.com/embed/sGudGnwU7yc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="590" height="332" src="https://www.youtube.com/embed/sGudGnwU7yc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## About
 
