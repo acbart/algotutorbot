@@ -88,4 +88,4 @@ course evaluations ever - virtually perfect scores.
 
 The following contains *all* the videos used in the course, including several that are meant to be secret. If you don't want spoilers, then you shouldn't watch. But if you want to see how it all turns out, watch below! It's 3 hours, 25 minutes total.
 
-<iframe width="1904" height="768" src="https://www.youtube.com/embed/jFDxhB0gtZQ?list=PL4lj9_lkgXTMlEKffSifwms8iYJKjTITH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="952" height="384" src="https://www.youtube.com/embed/jFDxhB0gtZQ?list=PL4lj9_lkgXTMlEKffSifwms8iYJKjTITH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
