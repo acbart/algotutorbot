@@ -5,6 +5,8 @@
 
 This page contains the resources for instructors interested in adopting the ATB Curriculum.
 
+{:toc}
+
 <!-- ![Screenshot from Lesson 16, where AlgoTutorBot has tied up Dr. Bart and is lecturing about Graph Structures](resources/algotutorbot.png) -->
 
 <iframe width="590" height="332" src="https://www.youtube.com/embed/sGudGnwU7yc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -29,7 +31,7 @@ also a number of smaller assignments that would be easily adopted into a regular
 course. All resources and a walkthrough video of the experience are available at
 https://acbart.github.io/algotutorbot/
 
-This website will show off the final version of the course, and will also describe the lessons I
+This website shows off the final version of the course, and also describes some of the lessons I
 learned along the way. The curriculum was a tremendous amount of effort, and would not be
 easily reproduced. However, the experience was very rewarding and earned me my highest
 course evaluations ever - virtually perfect scores.
@@ -47,9 +49,11 @@ course evaluations ever - virtually perfect scores.
 
 * Point-and-click Graph Algorithm Adventure: In Lesson 16, students were directed to a special section of the Ohyay space that was modeled after my house. With spooky music playing and little context, they had to join together and explore the house to find me. Along the way, they find a video where I reveal that I have hidden some notes around the house that explain how they can determine the password to unlock the door to the basement. Basically, they have to execute a number of graph algorithms (e.g., Prim's, Djikstra's) using the house's rooms as a graph of vertices and edges. A walkthrough of the adventure can be found [here](lessons/Lesson 16- Graph Concepts).
 
-## Video Script
+## Documentary
 
-* [Video Script](script)
+The following video is a sort-of "Documentary" about what I did in the course, and shows some highlights from the semester.
+
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/ymd1m-DaY0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Lessons
 
