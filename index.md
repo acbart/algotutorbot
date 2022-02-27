@@ -5,7 +5,12 @@
 
 This page contains the resources for instructors interested in adopting the ATB Curriculum.
 
-{:toc}
+1. [About](#about)
+2. [Particularly Interesting Items](#particularly-interesting-items)
+3. [Documentary](#documentary)
+4. [Lessons](#lessons)
+5. [Full Video Playlist](#full-video-playlist)
+6. [Contact Me](#contact-me)
 
 <!-- ![Screenshot from Lesson 16, where AlgoTutorBot has tied up Dr. Bart and is lecturing about Graph Structures](resources/algotutorbot.png) -->
 
@@ -53,7 +58,7 @@ course evaluations ever - virtually perfect scores.
 
 The following video is a sort-of "Documentary" about what I did in the course, and shows some highlights from the semester.
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/ymd1m-DaY0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/ymd1m-DaY0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Lessons
 
@@ -93,3 +98,9 @@ The following video is a sort-of "Documentary" about what I did in the course, a
 The following contains *all* the videos used in the course, including several that are meant to be secret. If you don't want spoilers, then you shouldn't watch. But if you want to see how it all turns out, watch below! It's 3 hours, 25 minutes total.
 
 <iframe width="590" height="332" src="https://www.youtube.com/embed/jFDxhB0gtZQ?list=PL4lj9_lkgXTMlEKffSifwms8iYJKjTITH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Contact Me
+
+Thanks for checking out all my materials! I have chosen not to upload some of them, to prevent them from being abused by students searching for answers. This mostly includes instructor unit tests and grading scripts, answer keys, and reference answers. If you are an instructor interested in these materials, please feel free to fill out this google form: [https://forms.gle/dU6U17Uy4QZ3KR577](https://forms.gle/dU6U17Uy4QZ3KR577)
+
+If you would like to contact Dr. Bart directly, you can email him at <a href="mailto:acbart+atb@udel.edu">acbart+atb@udel.edu</a>
