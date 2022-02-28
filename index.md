@@ -3,7 +3,7 @@
 
 # Introduction to Algorithms with AlgoTutorBot
 
-This page contains the resources for instructors interested in adopting the ATB Curriculum.
+In Spring 2021, I taught a really weird Algorithms course, with the help of a megalomaniac Intelligent Tutoring System. I was chased, punched, and duct taped to a chair. But I think my students learned a little bit about Big Oh notation, so it's kind of a mixed bag. Want to hear more? Keep reading, or meet me at [SIGCSE'22](https://sigcse2022.us2.pathable.com/meetings/virtual/wT27nvQLMxSNj6Jke)!
 
 1. [About](#about)
 2. [Particularly Interesting Items](#particularly-interesting-items)
