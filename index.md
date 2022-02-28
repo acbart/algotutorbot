@@ -58,7 +58,7 @@ course evaluations ever - virtually perfect scores.
 
 The following video is a sort-of "Documentary" about what I did in the course, and shows some highlights from the semester.
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/ymd1m-DaY0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/RPXTiiGKdCo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Lessons
 
