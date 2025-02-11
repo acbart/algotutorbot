@@ -80,7 +80,8 @@ I'll tell you an hour, and you need to use a binary search to efficiently find t
 
 Of course, the passwords are not actually going to be `A`, `B`, `C`, etc. That would be too easy. Instead, each password is actually stored in a "String Maze"!
 
-Phase 4) Solving a 1D Maze
+## Phase 4) Solving a 1D Maze
+
 I'll be honest, I didn't get very far with this one. AlgoTutorBot has the weirdest security! It looks like in order to access the password, you have to navigate a 1-Dimensional maze stored in a string. The strings look like this.
 
 `→2→9→7⇆23X⚡→7⇆43🐕🧩⇇92🌻`
